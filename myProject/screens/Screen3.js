@@ -4,7 +4,7 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
 const { width, height } = Dimensions.get('window'); 
 
-const Screen_03 = ({ route }) => {
+const Screen_03 = ({ route, navigation }) => {
   const {
     image,
     title = 'Pina Mountain',
